@@ -1,0 +1,23 @@
+/* Header */
+.header {
+  height: 80px;
+  /* background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%); */
+  /* Created with https://www.css-gradient.com */
+  background: #4736e6;
+  background: -webkit-linear-gradient(right, #4736e6, #100b9f);
+  background: -moz-linear-gradient(right, #4736e6, #100b9f);
+  background: linear-gradient(to left, #4736e6, #100b9f);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_title {
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 35px;
+  text-shadow: 2px 2px 5px #444;
+  font-weight: normal;
+  margin-bottom: 0;
+  letter-spacing: 3px;
+}

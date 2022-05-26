@@ -1,0 +1,97 @@
+/* form */
+
+main {
+  padding: 36px;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
+.form_input {
+  font-family: 'Karla', sans-serif;
+  border-radius: 5px;
+  border: 1px solid #d5d4d8;
+  text-indent: 5px;
+}
+
+.form_button {
+  grid-column: 1 / -1;
+  border-radius: 5px;
+  /* background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%); */
+  /* Created with https://www.css-gradient.com */
+  background: #4736e6;
+  background: -webkit-linear-gradient(right, #4736e6, #100b9f);
+  background: -moz-linear-gradient(right, #4736e6, #100b9f);
+  background: linear-gradient(to left, #4736e6, #100b9f);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: 'Karla', sans-serif;
+}
+
+.form_button_icon {
+  padding-top: 5px;
+}
+
+.meme_Image {
+  width: 50%;
+  height: auto;
+  border-radius: 3px;
+  display: block;
+  margin: 50px auto 50px auto;
+  padding: 15px;
+  border: 3px solid #100b9f;
+}
+
+.meme_text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  right: 10%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 40px;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
+    2px 2px 0 #000;
+  cursor: all-scroll;
+}
+
+.bottom {
+  top: 300px;
+}
+
+.top {
+  top: 280px;
+}
+
+.meme_save_button {
+  display: grid;
+  grid-template: 40px / 1fr;
+  gap: 17px;
+  margin-bottom: 50px;
+}
+
+.save_button {
+  grid-column: 1;
+  text-align: center;
+  border-radius: 5px;
+  /* background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%); */
+  /* Created with https://www.css-gradient.com */
+  background: #4736e6;
+  background: -webkit-linear-gradient(right, #4736e6, #100b9f);
+  background: -moz-linear-gradient(right, #4736e6, #100b9f);
+  background: linear-gradient(to left, #4736e6, #100b9f);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: 'Karla', sans-serif;
+}

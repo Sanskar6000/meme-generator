@@ -1,0 +1,50 @@
+footer {
+  /* background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%); */
+  /* Created with https://www.css-gradient.com */
+  background: #4736e6;
+  background: -webkit-linear-gradient(right, #4736e6, #100b9f);
+  background: -moz-linear-gradient(right, #4736e6, #100b9f);
+  background: linear-gradient(to left, #4736e6, #100b9f);
+  height: auto;
+  font-family: 'Open Sans';
+  padding-top: 40px;
+  color: white;
+  padding-bottom: 30px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 3rem;
+}
+
+.footer-socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.footer-socials li {
+  margin: 0 10px;
+}
+
+.footer-socials a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  transition: color 0.4s ease;
+}
+
+.footer-socials a:hover {
+  color: aqua;
+}
