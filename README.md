@@ -12,7 +12,7 @@ This application is deployed on Heroku. Please check it out 😄[here](https://m
 
 
 ## About The App
-Meme Generator Application built using React and utilizes [this](https://rapidapi.com/meme-generator-api-meme-generator-api-default/api/meme-generator/){:target="_blank"} API for generating predefined meme templates. Users can edit meme by writing text in the Input fields and download the edited meme on their local computer. 
+Meme Generator Application built using React and utilizes [this](https://rapidapi.com/meme-generator-api-meme-generator-api-default/api/meme-generator/) API for generating predefined meme templates. Users can edit meme by writing text in the Input fields and download the edited meme on their local computer. 
 
 
 ## Technologies
