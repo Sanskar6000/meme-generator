@@ -22,5 +22,5 @@ Whole UI of the application is built using React and Axios is used for managing 
 - download or clone the repository
 - run `npm install`
 - run `npm start`
-- app shlould be running on `http://localhost:3000/`
+- app should be running on `http://localhost:3000/`
 
